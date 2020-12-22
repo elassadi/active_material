@@ -67,5 +67,11 @@
     text-align: center;
   }
 
-
+  &:hover {
+    > li {
+      clip: initial;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
 }
