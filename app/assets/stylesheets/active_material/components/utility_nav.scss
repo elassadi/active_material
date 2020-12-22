@@ -67,4 +67,11 @@
     text-align: center;
   }
 
+  &:active {
+    > li {
+      clip: initial;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
 }
